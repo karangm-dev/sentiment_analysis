@@ -1,7 +1,5 @@
 # sentiment_analysis
 
-# language_modelling
-
 1. The project requires jupyter notebook to run. Download and install as specified in https://jupyter.org/install<br/>
 
 2. Clone the repository<br/>
