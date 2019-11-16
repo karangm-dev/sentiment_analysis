@@ -1,0 +1,44 @@
+[3.1]
+
+The reason for trying just n1:2 (number of neurons in layer 1) with all combination of activation functions is because there are 27884. The way in which
+the question is designed makes the progrma overfit because there are more number of parameters than the number of observations.
+
+Selected Parameters: {'val_accuracy': 0.9544000029563904, 'n1': 2, 'n2': 10, 'activation': 'sigmoid', 'n2_activation': 'sigmoid'}
+
+[3.2]
+
+Train Accuracy: 0.9940000176429749
+
+Even though the train accuracy is very high, this model will not be considered while making the final decision since its a overfit model.
+
+[3.3]
+
+Selected Parameters: {'val_accuracy': 0.9251999974250793, 'n1': 8, 'n2': 10, 'activation': 'tanh', 'n2_activation': 'sigmoid'}
+
+Train Accuracy: 0.9305999875068665
+
+[3.4]
+
+Parameters: {'val_accuracy': 0.9439999997615814, 'n1': 3, 'n2': 10, 'activation': 'relu', 'n2_activation': 'sigmoid', 'components': 500}
+
+Train Accuracy: 0.9592999815940857
+
+[3.5]
+
+Topic 0:
+the and to was it we of is for my in they this that you with not food have
+Topic 1:
+we was our were us she he had to minutes told came said her asked didn after got ordered
+Topic 2:
+to me they you my she he that have them car get your do if told her call up
+Topic 3:
+we our great and us always are friendly is love service amazing staff he have you very recommend been
+Topic 4:
+was and my great she very he me her friendly amazing recommend hair definitely highly service staff professional his
+
+[3.6]
+
+Ignoring MLP, based on the training accuracy of word embedding and svd, svd tend to perform slightly better. I will be chosing SVD with
+Parameters: {'val_accuracy': 0.9439999997615814, 'n1': 3, 'n2': 10, 'activation': 'relu', 'n2_activation': 'sigmoid', 'components': 500} for the test set
+
+

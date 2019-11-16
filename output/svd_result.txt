@@ -1,0 +1,4 @@
+Parameters: {'val_accuracy': 0.9439999997615814, 'n1': 3, 'n2': 10, 'activation': 'relu', 'n2_activation': 'sigmoid', 'components': 500}
+
+Train Accuracy: 0.957099974155426
+

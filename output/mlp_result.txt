@@ -1,0 +1,4 @@
+Selected Parameters: {'val_accuracy': 0.9544000029563904, 'n1': 2, 'n2': 10, 'activation': 'sigmoid', 'n2_activation': 'sigmoid'}
+
+Train Accuracy: 0.9940000176429749
+
